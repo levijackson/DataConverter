@@ -1,0 +1,19 @@
+{
+    "name": "levijackson/data-converter",
+    "description": "Convert data formats",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Levi Jackson",
+            "email": "aerosox@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "DataConverter\\": "src/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.5"
+    }
+}
